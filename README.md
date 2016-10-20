@@ -25,7 +25,8 @@ godCalendar.delegate = self;
 }
 ```
 
-##设置代理<GodCalendarDelegate>
+##设置代理
+###<GodCalendarDelegate>
 --------------------
 ###pragma 点击选择某一天返回日期
 ```obj-c
