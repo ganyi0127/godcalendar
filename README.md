@@ -1,6 +1,6 @@
 #godcalendar
 =======================
-![gif](https://github.com/ganyi0127/godcalendar/godshot.gif 'shot')
+![gif](https://github.com/ganyi0127/godcalendar/blob/master/godshot.gif 'shot')
 ##初始化
 ----------------------
 ```obj-c
