@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE490D3C1DB4A811006D6EA2 /* GodCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE490D3B1DB4A811006D6EA2 /* GodCalendar.m */; };
+		BE490D3D1DB4A811006D6EA2 /* GodCalendar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE490D3A1DB4A811006D6EA2 /* GodCalendar.h */; };
+		BE490D5A1DB4C94D006D6EA2 /* GCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE490D591DB4C94D006D6EA2 /* GCScrollView.m */; };
+		BE490D5D1DB4C98B006D6EA2 /* DayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE490D5C1DB4C98B006D6EA2 /* DayView.m */; };
+		BE5550D11DB72C8300BC1AD6 /* GCConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5550D01DB72C8300BC1AD6 /* GCConfigure.m */; };
+		BE9B66C61DB74E150025B39A /* GodCalendarData.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B66C51DB74E150025B39A /* GodCalendarData.m */; };
+		BE9B66CF1DB750680025B39A /* GodCalendarData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE9B66C41DB74E150025B39A /* GodCalendarData.h */; };
+		BE9B66DE1DB7667C0025B39A /* CustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B66DD1DB7667C0025B39A /* CustomDate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE490D351DB4A810006D6EA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BE9B66CF1DB750680025B39A /* GodCalendarData.h in CopyFiles */,
+				BE490D3D1DB4A811006D6EA2 /* GodCalendar.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE490D371DB4A810006D6EA2 /* libGodCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGodCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE490D3A1DB4A811006D6EA2 /* GodCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodCalendar.h; sourceTree = "<group>"; };
+		BE490D3B1DB4A811006D6EA2 /* GodCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GodCalendar.m; sourceTree = "<group>"; };
+		BE490D581DB4C94D006D6EA2 /* GCScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCScrollView.h; sourceTree = "<group>"; };
+		BE490D591DB4C94D006D6EA2 /* GCScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCScrollView.m; sourceTree = "<group>"; };
+		BE490D5B1DB4C98B006D6EA2 /* DayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayView.h; sourceTree = "<group>"; };
+		BE490D5C1DB4C98B006D6EA2 /* DayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayView.m; sourceTree = "<group>"; };
+		BE490D5E1DB4D6B9006D6EA2 /* GCConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCConfigure.h; sourceTree = "<group>"; };
+		BE5550D01DB72C8300BC1AD6 /* GCConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCConfigure.m; sourceTree = "<group>"; };
+		BE9B66C41DB74E150025B39A /* GodCalendarData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodCalendarData.h; sourceTree = "<group>"; };
+		BE9B66C51DB74E150025B39A /* GodCalendarData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodCalendarData.m; sourceTree = "<group>"; };
+		BE9B66DC1DB7667C0025B39A /* CustomDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDate.h; sourceTree = "<group>"; };
+		BE9B66DD1DB7667C0025B39A /* CustomDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE490D341DB4A810006D6EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE490D2E1DB4A810006D6EA2 = {
+			isa = PBXGroup;
+			children = (
+				BE490D391DB4A810006D6EA2 /* GodCalendar */,
+				BE490D381DB4A810006D6EA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE490D381DB4A810006D6EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE490D371DB4A810006D6EA2 /* libGodCalendar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE490D391DB4A810006D6EA2 /* GodCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				BE490D3A1DB4A811006D6EA2 /* GodCalendar.h */,
+				BE490D3B1DB4A811006D6EA2 /* GodCalendar.m */,
+				BE9B66C41DB74E150025B39A /* GodCalendarData.h */,
+				BE9B66C51DB74E150025B39A /* GodCalendarData.m */,
+				BE9B66DC1DB7667C0025B39A /* CustomDate.h */,
+				BE9B66DD1DB7667C0025B39A /* CustomDate.m */,
+				BE490D581DB4C94D006D6EA2 /* GCScrollView.h */,
+				BE490D591DB4C94D006D6EA2 /* GCScrollView.m */,
+				BE490D5B1DB4C98B006D6EA2 /* DayView.h */,
+				BE490D5C1DB4C98B006D6EA2 /* DayView.m */,
+				BE490D5E1DB4D6B9006D6EA2 /* GCConfigure.h */,
+				BE5550D01DB72C8300BC1AD6 /* GCConfigure.m */,
+			);
+			path = GodCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE490D361DB4A810006D6EA2 /* GodCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE490D401DB4A811006D6EA2 /* Build configuration list for PBXNativeTarget "GodCalendar" */;
+			buildPhases = (
+				BE490D331DB4A810006D6EA2 /* Sources */,
+				BE490D341DB4A810006D6EA2 /* Frameworks */,
+				BE490D351DB4A810006D6EA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GodCalendar;
+			productName = GodCalendar;
+			productReference = BE490D371DB4A810006D6EA2 /* libGodCalendar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE490D2F1DB4A810006D6EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ganyi;
+				TargetAttributes = {
+					BE490D361DB4A810006D6EA2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T65EE75V48;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE490D321DB4A810006D6EA2 /* Build configuration list for PBXProject "GodCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE490D2E1DB4A810006D6EA2;
+			productRefGroup = BE490D381DB4A810006D6EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE490D361DB4A810006D6EA2 /* GodCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE490D331DB4A810006D6EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5550D11DB72C8300BC1AD6 /* GCConfigure.m in Sources */,
+				BE490D3C1DB4A811006D6EA2 /* GodCalendar.m in Sources */,
+				BE9B66DE1DB7667C0025B39A /* CustomDate.m in Sources */,
+				BE490D5A1DB4C94D006D6EA2 /* GCScrollView.m in Sources */,
+				BE9B66C61DB74E150025B39A /* GodCalendarData.m in Sources */,
+				BE490D5D1DB4C98B006D6EA2 /* DayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE490D3E1DB4A811006D6EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE490D3F1DB4A811006D6EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE490D411DB4A811006D6EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T65EE75V48;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		BE490D421DB4A811006D6EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T65EE75V48;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE490D321DB4A810006D6EA2 /* Build configuration list for PBXProject "GodCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE490D3E1DB4A811006D6EA2 /* Debug */,
+				BE490D3F1DB4A811006D6EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE490D401DB4A811006D6EA2 /* Build configuration list for PBXNativeTarget "GodCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE490D411DB4A811006D6EA2 /* Debug */,
+				BE490D421DB4A811006D6EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE490D2F1DB4A810006D6EA2 /* Project object */;
+}
